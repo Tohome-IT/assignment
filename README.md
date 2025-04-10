@@ -54,6 +54,7 @@
 ```
 
 Please make a todo list that
+- Your project must use React or Nextjs.
 - Have a list of clickable buttons.
 - Each button will be moved into its own column separated by type.
 - Once moved, each button will have 5 seconds on the screen and then will be moved back to the bottom of the main list.
@@ -76,7 +77,7 @@ Bonus: if you have multiple solutions we could discuss those theories in our int
 
 API from <https://dummyjson.com/users>
 
-- Your project must use Typescript, Typescript module, and HTTP framework (GRPC is plus)
+- Your project must use Typescript, Typescript module, and HTTP framework
 - Tranforms JSON data from API to new data groupBy department
 - We encourage you to write tests, which we will give you some extra score
 - We will give you an extra score if you focus on performance.
@@ -102,14 +103,6 @@ API from <https://dummyjson.com/users>
     }, 
     ...
 ```
-
- ## 🧪 Tech Stack
-You can choose any backend stack you're comfortable with. Suggested options:
-
-- **Node.js**
-- **React**
-- **Next**
-- **Go**
 
 ---
 
