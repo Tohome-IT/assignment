@@ -54,22 +54,23 @@ Transform the response from the API into this structure:
 --- sample response ---
 
 ```json
- {
-  [Department]: {
-    male: number,             // total male count
-    female: number,           // total female count
-    ageRange: "XX-XX",        // min-max age range
-    hair: {
-      Black: number,
-      Blond: number,
-      Chestnut: number,
-      Brown: number
-    },
-    addressUser: {
-      "firstNamelastName": "postalCode"
-    }
-  }
-}
+    {
+        [Department]: {
+            "male": 1,                      // ---> Male Count Summary
+            "female": 1,                    // ---> Female Count Summary
+            "ageRange": "XX-XX",            // ---> Range
+            "hair": {                       // ---> "Color": Color Summary
+                "Black": 1,                
+                "Blond": 1,
+                "Chestnut": 1,
+                "Brown": 1
+            },
+            "addressUser": {                // ---> "firstNamelastName": postalCode
+                "TerryMedhurst": "XXXXX",
+            }
+        }
+    }, 
+    ...
 ...
 ```
 
